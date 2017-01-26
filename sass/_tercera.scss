@@ -1,0 +1,111 @@
+
+.tercera{
+	text-align: center;
+	background-image: url(../img/pricing-bg.jpg);
+	padding-top: 100px;
+	font-family: $fuente;
+	height: 450px;
+
+	.titulo{
+		@include titulosecciones;
+	}
+	
+	.tablas{
+		position: relative;
+		top: 100px;
+		
+		article{
+			background-color: white;
+			border: 1px solid #BDBDBD;
+
+			header{
+				margin-top: 50px;
+
+				h4{
+					text-transform: uppercase;
+					font-size: 12px;
+				    letter-spacing: 1px;
+				    font-weight: bolder
+				}
+
+				span{
+						font-size: 28px;
+						font-weight: 700;
+   						padding: 20px 0px 5px 0px;
+				}
+
+				span:before{
+					content: '$';
+				}
+
+				span:after{
+					content: '.99';
+				}
+
+				span:before, span:after{
+					font-size: 15px;
+					position: relative;
+					top:-8px;
+				}
+
+				p{
+					font-size: 10px; 
+				}
+			}
+
+			div{
+				display: inline-block;
+				padding: 10px 0px 15px 0px;
+    			line-height: 25px;
+
+    			.tda{
+    				font-size: 10px;
+					text-align: left;
+					padding-right: 16px;
+    			}
+
+    			.tdb{
+    				font-size: 10px;
+					text-align: right;
+					font-weight: bold;
+    			}
+
+    			.cyan{
+					color: #31C6DE;
+				}
+
+				.orange{
+					color:#DE8010;
+				}
+
+				.red{
+					color:#DE3900;
+				}
+
+				.redd{
+					color:#B50E00;
+				}
+			}
+
+			form{
+				margin-bottom: 30px;
+
+				input{
+				color: white;
+			    background-color: #4297cc;
+			    padding: 10px 20px;
+			    text-transform: uppercase;
+			    font-size: 9px;
+			    font-weight: 600;
+			    letter-spacing: 1px;
+			    border-style: none;
+    			border-radius: 3px;
+				}
+			}
+			
+
+		}
+
+	}
+
+}

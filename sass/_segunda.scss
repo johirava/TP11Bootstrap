@@ -1,0 +1,40 @@
+
+.segunda{
+	font-family: $fuente; 
+	text-align: center;
+	padding-top: 50px;
+
+	.titulo{
+		@include titulosecciones;
+		padding-bottom: 15px;
+	}
+
+	.columnauno{
+		text-align: right;
+		padding-top: 50px;
+
+		.row{
+			@include hostroservices;
+			padding-bottom:20px;
+		}
+	}
+
+	.columnados{
+		text-align: left;
+		padding-top: 50px;
+
+		.row{
+			@include hostroservices;
+			padding-bottom:20px;
+		}
+	}
+
+	.iphone{
+		position: relative;
+		top:35px;
+	}
+
+}
+
+
+

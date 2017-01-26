@@ -1,0 +1,33 @@
+$fuente:'Open Sans', sans-serif;
+
+@mixin hostroservices{
+		h4{
+			text-transform: uppercase;
+			font-size: 13px;
+			font-weight: 700;
+		}
+
+		p{
+			font-size: 11px;
+		}
+			
+		img{
+			width: 40px;
+		}
+}
+
+@mixin titulosecciones{
+		h2{
+			font-weight: 700;
+		}
+
+		p{
+			font-size: 12px;
+		}
+}
+
+@import '_header.scss';
+@import '_primera.scss';
+@import '_segunda.scss';
+@import '_tercera.scss';
+@import '_footer.scss'
